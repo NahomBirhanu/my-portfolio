@@ -6,6 +6,8 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
+import flutter from './flutter.png';
+import dart from './dart.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
@@ -45,6 +47,8 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
+    flutter,
+    dart,
     firebase,
     figma,
     git,
@@ -114,5 +118,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode,assets.flutter,assets.dart, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
